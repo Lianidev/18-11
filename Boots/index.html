@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas da Vovó</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#receitas">Receitas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+   
+    <div class="bg-primary text-white text-center p-5">
+        <h1>Receitas Clássicas da Vovó</h1>
+        <p>Preservando sabores e memórias para as próximas gerações</p>
+        <a href="#receitas" class="btn btn-light btn-lg">Ver Receitas</a>
+    </div>
+
+
+
+
+    <section id="sobre" class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="vovo rec.png" alt="Imagem de receitas" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <h2>Sobre o site</h2>
+                <p> Este projeto propõe o desenvolvimento de um site dedicado a reunir e preservar receitas de família, transmitidas de geração em geração. Ele celebra pratos carregados de histórias, criando uma biblioteca de receitas clássicas que estarão sempre ao alcance. Inclui desde bolos de chocolate da vovó até dicas e segredos para dar um toque especial aos pratos. O público-alvo são iniciantes na cozinha e famílias que desejam resgatar as tradições culinárias.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+   
+    <section id="receitas" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Receitas em Destaque</h2>
+            <div class="row">
+               
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="mobile-pudim-de-leite.png"class="card-img-top" alt="Pudim">
+                        <div class="card-body">
+                            <h5 class="card-title">Pudim de Leite</h5>
+                            <p class="card-text">Uma receita simples e deliciosa, perfeita para qualquer ocasião.</p>
+                            <a href="#" class="btn btn-primary">Ver Receita</a>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="bolo fuba.jpg" class="card-img-top" alt="Bolo">
+                        <div class="card-body">
+                            <h5 class="card-title">Bolo de Fubá</h5>
+                            <p class="card-text">Um clássico da cozinha brasileira que não pode faltar no café da tarde.</p>
+                            <a href="#" class="btn btn-primary">Ver Receita</a>
+                        </div>
+                    </div>
+                </div>
+           
+                <div class="col-md-4">
+                    <div class="card">
+                    <div class="card">
+                        <img src="feijoada.jpg" class="card-img-top" alt="Feijoada">
+                        <div class="card-body">
+                            <h5 class="card-title">Feijoada Completa</h5>
+                            <p class="card-text">O prato perfeito para reunir a família e celebrar momentos especiais.</p>
+                            <a href="#" class="btn btn-primary">Ver Receita</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   
+    <section id="contato" class="container my-5">
+        <h2 class="text-center mb-4">Fale Conosco</h2>
+        <form>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Seu email">
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva sua mensagem aqui"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+
+
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 Receitas de Família. Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
